@@ -12,7 +12,7 @@
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
-    "heroku-postbuild" : "YARN_CONFIG_PRODUCTION=false yarn add --prefix frontend && yarn run build --prefix frontend"
+    "heroku-postbuild" : "YARN_PRODUCTION=false yarn --cwd add frontend && yarn run build --cwd frontend"
   },
   "author": "Sujit <sujitkhopade2001@gmail.com>",
   "license": "MIT",
