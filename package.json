@@ -2,6 +2,10 @@
   "name": "eshop",
   "version": "1.0.0",
   "description": "online shopping website",
+  "engines": {
+    "node": "16.x",
+    "yarn": "1.x"
+  },
   "main": "server.js",
   "repository": "https://github.com/Sujit-git/eSHOP.git",
   "type": "module",
